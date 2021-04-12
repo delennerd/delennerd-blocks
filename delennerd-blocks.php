@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Delennerd Gutenberg Blocks
  * Description: Gutenberg Blocks by delennerd
- * Version:     1.0
+ * Version:     1.0.1
  * Author:      Pascal Lehnert
  * Author URI:  https://delennerd.de
  * Text Domain: delennerd-blocks
@@ -14,7 +14,7 @@ defined( 'ABSPATH' ) || exit;
 define( 'DLM_BLOCKS_NAME', 'DeLennerd Blocks' );
 define( 'DLM_BLOCKS_PREFIX', 'DLM_BLOCKS' );
 define( 'DLM_BLOCKS_LOCALE_PREFIX', 'delennerd-blocks' );
-define( 'DLM_BLOCKS_VER', '1.0.0' );
+define( 'DLM_BLOCKS_VER', '1.0.1' );
 
 define( 'DLM_BLOCKS__FILE__', __FILE__ );
 define( 'DLM_BLOCKS_PATH', plugin_dir_path( DLM_BLOCKS__FILE__ ) );

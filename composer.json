@@ -1,6 +1,6 @@
 {
     "name": "delennerd/delennerd-blocks",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "type": "wordpress-plugin",
     "require": {
         "yahnis-elsts/plugin-update-checker": "^4.11"

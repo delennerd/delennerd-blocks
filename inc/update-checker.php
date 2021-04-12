@@ -17,3 +17,4 @@ $delennedBlocksUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
 );
 
 $delennedBlocksUpdateChecker->setBranch('master');
+$delennedBlocksUpdateChecker->getVcsApi()->enableReleaseAssets();
