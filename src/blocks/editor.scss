@@ -5,21 +5,6 @@
  * which makes it higher in priority.
  */
 
-.grf {
-
-    &__location-address {
-        float: left;
-        width: calc(100% - 40px);
-    }
-
-    &__remove-location-address {
-        float: left;
-        margin-left: 10px;
-        margin-top: 1px;
-        padding: 5px 5px 4px;
-    }
-}
-
 .dlm-bs-button {
     &__add-button {
         // margin-top: 20px;

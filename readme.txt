@@ -2,7 +2,7 @@
 Contributors: passl
 Tags: gutenberg, blocks, delennerd
 Requires at least: 4.7
-Tested up to: 5.4
+Tested up to: 5.7
 Stable tag: 4.3
 Requires PHP: 7.0
 License: GPLv2 or later
@@ -12,17 +12,14 @@ A little plugin with gutenberg blocks.
 
 == Description ==
 
-This is the long description.  No limit, and you can use Markdown (as well as in the following sections).
-
-For backwards compatibility, if this section is missing, the full length of the short description will be used, and
-Markdown parsed.
+A little plugin with gutenberg blocks for some bootstrap components.
 
 Gutenberg Blocks
 
 *   Bootstrap Card
-*   
+*   Bootstrap Buttons as list
 
-== Frequently Asked Questions ==
+== FAQ ==
 
 = Do I need Bootstrap? =
 
