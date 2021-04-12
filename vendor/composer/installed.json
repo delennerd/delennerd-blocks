@@ -1,14 +1,9 @@
 {
-    "_readme": [
-        "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
-        "This file is @generated automatically"
-    ],
-    "content-hash": "470e598b6e803a4820c6b10a2b672be8",
     "packages": [
         {
             "name": "yahnis-elsts/plugin-update-checker",
             "version": "v4.11",
+            "version_normalized": "4.11.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/YahnisElsts/plugin-update-checker.git",
@@ -24,7 +19,9 @@
                 "ext-json": "*",
                 "php": ">=5.2.0"
             },
+            "time": "2021-03-15T16:07:52+00:00",
             "type": "library",
+            "installation-source": "dist",
             "autoload": {
                 "files": [
                     "load-v4p11.php"
@@ -50,20 +47,9 @@
                 "theme updates",
                 "wordpress"
             ],
-            "support": {
-                "issues": "https://github.com/YahnisElsts/plugin-update-checker/issues",
-                "source": "https://github.com/YahnisElsts/plugin-update-checker/tree/v4.11"
-            },
-            "time": "2021-03-15T16:07:52+00:00"
+            "install-path": "../yahnis-elsts/plugin-update-checker"
         }
     ],
-    "packages-dev": [],
-    "aliases": [],
-    "minimum-stability": "stable",
-    "stability-flags": [],
-    "prefer-stable": false,
-    "prefer-lowest": false,
-    "platform": [],
-    "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "dev": true,
+    "dev-package-names": []
 }
