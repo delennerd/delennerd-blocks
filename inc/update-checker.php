@@ -16,5 +16,4 @@ $dlmUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
 	'delennerd-blocks'
 );
 
-//Set the branch that contains the stable release.
-$myUpdateChecker->setBranch('stable-branch-name');
+$myUpdateChecker->setBranch('master');

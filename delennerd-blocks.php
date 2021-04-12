@@ -23,15 +23,15 @@ define( 'DLM_BLOCKS_URL', plugins_url( '/', DLM_BLOCKS__FILE__ ) );
 
 
 $delennerd_blocks_inc_files = [
-    // '/vendor/autoload.php',
+    '/vendor/autoload.php',
     '/inc/update-checker.php',
 ];
 
-foreach ( $delennerd_inc_files as $file ) {
+foreach ( $delennerd_blocks_inc_files as $file ) {
     // $filepath = locate_template( './' . $file );
 	// if ( ! $filepath ) { trigger_error( sprintf( 'Error locating %s for inclusion', $file ), E_USER_ERROR );	}
 	// require_once $filepath;
-	require_once DLM_BLOCKS_PATH . $delennerd_blocks_inc_files;
+	require_once DLM_BLOCKS_PATH . $file;
 }
 
 
