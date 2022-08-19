@@ -43,6 +43,18 @@ class Delennerd_Blocks_Frontend {
 			return;
 		}
 
+        register_post_meta( 'post', '_my_custom_bool', [
+            'show_in_rest' => true,
+            'single' => true,
+            'type' => 'boolean',
+        ] );
+    
+        register_post_meta( 'post', '_my_custom_text', [
+            'show_in_rest' => true,
+            'single' => true,
+            'type' => 'string',
+        ] );
+
         register_block_type(
             'delennerd/bs-button-block', array(
                 'render_callback' => array( $this, 'render_bs_button_blocks' ),
@@ -140,6 +152,16 @@ class Delennerd_Blocks_Frontend {
             null,
             true
         );
+
+        add_action( 'enqueue_block_editor_assets', function() {
+            wp_enqueue_script(
+                'delennerd-blocks-postmeta', 
+                DLM_BLOCKS_URL . '/dist/blocks.js',
+                [ 'wp-edit-post' ],
+                false,
+                false
+            );
+        } );
 
         // WP Localized globals. Use dynamic PHP stuff in JavaScript via `cgbGlobal` object.
         wp_localize_script(

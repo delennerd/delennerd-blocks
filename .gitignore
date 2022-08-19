@@ -1,6 +1,7 @@
 # ignore node dependency directories
 node_modules/
-dist/
+dist/*
+vendor/
 package-lock.json
 
 # ignore log files and databases

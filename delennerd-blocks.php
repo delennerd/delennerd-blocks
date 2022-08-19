@@ -26,6 +26,7 @@ $delennerd_blocks_inc_files = [
     '/vendor/autoload.php',
     '/inc/update-checker.php',
     '/inc/delennerd-blocks-frontend.php',
+    '/inc/blocks.php',
 ];
 
 foreach ( $delennerd_blocks_inc_files as $file ) {
